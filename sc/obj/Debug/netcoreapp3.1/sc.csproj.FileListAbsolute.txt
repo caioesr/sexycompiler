@@ -1,0 +1,13 @@
+C:\Users\caioe\Documents\sexycompiler\sc\bin\Debug\netcoreapp3.1\sc.exe
+C:\Users\caioe\Documents\sexycompiler\sc\bin\Debug\netcoreapp3.1\sc.deps.json
+C:\Users\caioe\Documents\sexycompiler\sc\bin\Debug\netcoreapp3.1\sc.runtimeconfig.json
+C:\Users\caioe\Documents\sexycompiler\sc\bin\Debug\netcoreapp3.1\sc.runtimeconfig.dev.json
+C:\Users\caioe\Documents\sexycompiler\sc\bin\Debug\netcoreapp3.1\sc.dll
+C:\Users\caioe\Documents\sexycompiler\sc\bin\Debug\netcoreapp3.1\sc.pdb
+C:\Users\caioe\Documents\sexycompiler\sc\obj\Debug\netcoreapp3.1\sc.csprojAssemblyReference.cache
+C:\Users\caioe\Documents\sexycompiler\sc\obj\Debug\netcoreapp3.1\sc.AssemblyInfoInputs.cache
+C:\Users\caioe\Documents\sexycompiler\sc\obj\Debug\netcoreapp3.1\sc.AssemblyInfo.cs
+C:\Users\caioe\Documents\sexycompiler\sc\obj\Debug\netcoreapp3.1\sc.csproj.CoreCompileInputs.cache
+C:\Users\caioe\Documents\sexycompiler\sc\obj\Debug\netcoreapp3.1\sc.dll
+C:\Users\caioe\Documents\sexycompiler\sc\obj\Debug\netcoreapp3.1\sc.pdb
+C:\Users\caioe\Documents\sexycompiler\sc\obj\Debug\netcoreapp3.1\sc.genruntimeconfig.cache
