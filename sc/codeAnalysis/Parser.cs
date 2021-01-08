@@ -50,7 +50,7 @@ namespace sexyc.codeAnalysis
             return current;
         }
 
-        private SyntaxToken Match(SyntaxKind kind)
+        private SyntaxToken MatchToken(SyntaxKind kind)
         {
             if (Current.Kind == kind)
                 return NextToken();
@@ -66,8 +66,8 @@ namespace sexyc.codeAnalysis
 
         public SyntaxTree Parse()
         {
-            var expresion = ParseTerm();
-            var endOfFileToken = Match(SyntaxKind.EOFToken);
+            var expresion = ParseExpression();
+            var endOfFileToken = MatchToken(SyntaxKind.EOFToken);
             return new SyntaxTree(diagnostics, expresion, endOfFileToken);
         }
 
@@ -107,12 +107,12 @@ namespace sexyc.codeAnalysis
             {
                 var left = NextToken();
                 var expression = ParseExpression();
-                var right = Match(SyntaxKind.CloseParenthesisToken);
+                var right = MatchToken(SyntaxKind.CloseParenthesisToken);
                 return new ParenthesizedExpressionSyntax(left, expression, right);
             }
 
-            var numberToken = Match(SyntaxKind.NumberToken);
-            return new NumberExpressionSyntax(numberToken);
+            var numberToken = MatchToken(SyntaxKind.NumberToken);
+            return new LiteralExpressionSyntax(numberToken);
         }
     }
 }
